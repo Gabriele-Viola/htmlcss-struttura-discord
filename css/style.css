@@ -15,6 +15,11 @@ body{
 .reverseRow{
     flex-direction: row-reverse;
 }
+.bottom{
+    align-items: flex-end;
+}
+
+
 .bg-r{
     background-color: red;
 }
@@ -27,8 +32,9 @@ body{
 .bg-Gr{
     background-color: green;
 }
-.bg-footer{
-    background-color: rgb(0, 53, 12);
+
+.divider{
+    border-bottom: 1px solid grey;
 }
 .bg-Pk{
     background-color: pink;
@@ -40,12 +46,13 @@ body{
 }
 
 
+/* #endregion comuni */
 
-/* #endregion Comuni */
 
 /* #region header */
-.Logo{
+.LogoA{
     width: 25%;
+    border: 1px dashed;
 }
 .search{
     width: 50%;
@@ -76,6 +83,7 @@ main{
 .banner{
     width: 60%;
     height: 80%;
+    border: 1px dashed;
 }
 
 .module{
@@ -86,10 +94,12 @@ main{
 article{
     width: 60%;
     background-color: cyan;
+    border: 1px dashed;
 }
 aside{
     width: 40%;
     background-color: rosybrown;
+    border: 1px dashed;
 }
 .Bigdownload{
     height: 70vh;
@@ -99,9 +109,9 @@ aside{
 /* #endregion main */
 
 
-
+/* #footer region */
 footer{
-    background-color: azure;
+    background-color: rgb(0, 53, 12);
 }
 .social{
     width: 32%;
@@ -109,4 +119,36 @@ footer{
 .infoNservices{
     width: 16%;
 }
+.bg-Pk{
+    background-color: pink;
+}
+.bg-Slv{
+    background-color: rgb(0, 173, 142);
+    border: 1px dashed white;
+
+}
+.conteinerf{
+    border:1px dashed;
+    justify-content: space-between;
+    background-color: orange;
+    width: 60%;
+    height: 80%;
+    min-height: 1rem;
+
+}
+.LogoB{
+    border: 1px dashed;
+    background-color:rosybrown ;
+}
+button{
+    border: 1px dashed black;
+}
+
+.moduleF{
+    height: 5vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* #endfooter region */
+
 
