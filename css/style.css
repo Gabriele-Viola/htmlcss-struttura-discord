@@ -65,13 +65,15 @@ body{
 header{
     height: 20vh;
     background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
 }
 .conteinerH{
     border:1px dashed;
-    margin: auto;
     justify-content: space-between;
     background-color: orange;
     width: 80vw;
+    height: 2rem;
 
 }
 
