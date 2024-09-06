@@ -18,29 +18,23 @@ body{
 
 /* #endregion Comuni */
 
-/* #region utility */
+/* #region header */
 .Logo{
     width: 25%;
 }
 .search{
     width: 50%;
     text-align:center;
-
 }
 .Login{
     width: 25%;
     text-align: right;
-
 }
-/* #endregion utility */
-
-
-
 header{
     height: 20vh;
     background-color: aquamarine;
 }
-.conteinerT{
+.conteinerH{
     border:1px dashed;
     margin: auto;
     justify-content: space-between;
@@ -49,10 +43,31 @@ header{
 
 }
 
+/* #endregion header */
+
+/* #region main */
 main{
-    height: 30vh;
+    height: 100vh;
     background-color: bisque;
 }
+.banner{
+    width: 60%;
+    height: 80%;
+    background-color: blue;
+}
+.module{
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+
+
+/* #endregion main */
+
+
+
 footer{
     height: 40vh;
     background-color: azure;
