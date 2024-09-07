@@ -18,42 +18,74 @@ body{
 .bottom{
     align-items: flex-end;
 }
+/* #endregion comuni */
+/* #region debug */
 
-
-.bg-r{
-    background-color: red;
+.debugHeader{
+    background-color: aquamarine;
 }
-.bg-g{
+.debugBordDash{
+    border: 1px dashed;
+}
+.debugheadNfooter{
+    background-color: orange;
+    border:1px dashed;
+}
+
+.debugmodulereverse{
     background-color: grey;
 }
-.bg-BL{
-    background-color: blue;
+.debugheadbanner{
+    background-color: blue;    
 }
-.bg-Gr{
-    background-color: green;
+.debugheadermodule{
+    background-color: red;
+
+}
+.debugarticlebox{
+    background-color: cyan;
+}
+.debugarticlesect{
+    border: 1px dashed;
+}
+.debugimg{
+    background-color: rosybrown;
+    border: 1px dashed;
 }
 
-.divider{
-    border-bottom: 1px solid grey;
+.debugdownload{
+    background-color: green;
+
 }
-.bg-Pk{
+
+.debugersocial{
     background-color: pink;
 }
-.bg-Slv{
-    background-color: rgb(0, 173, 142);
-    border: 1px dashed white;
 
+.debuginfo{
+    border: 1px dashed white;
+    background-color: rgb(0, 173, 142);
+}
+.debugfooterlogo{
+    border: 1px dashed;
+    background-color:rosybrown ;
+}
+.debugfooter{
+    background-color: rgb(0, 53, 12);
+}
+.debugbutton{
+    border: 1px dashed black;
 }
 
 
-/* #endregion comuni */
+/* #endregion debug */
 
 
 /* #region header */
 .LogoA{
     width: 25%;
-    border: 1px dashed;
 }
+
 .search{
     width: 50%;
     text-align:center;
@@ -64,17 +96,15 @@ body{
 }
 header{
     height: 20vh;
-    background-color: aquamarine;
     align-items: center;
     justify-content: center;
 }
-.conteinerH{
-    border:1px dashed;
-    justify-content: space-between;
-    background-color: orange;
-    width: 80vw;
-    height: 2rem;
 
+.navigation{
+    justify-content: space-between;
+    width: 90vw;
+    height: 10vh;
+    line-height: 10vh;
 }
 
 /* #endregion header */
@@ -83,25 +113,21 @@ header{
 main{
 }
 .banner{
-    width: 60%;
+    width: 80vw;
     height: 80%;
-    border: 1px dashed;
 }
 
+
 .module{
-    height: 30vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
 }
 article{
     width: 60%;
-    background-color: cyan;
-    border: 1px dashed;
 }
 aside{
     width: 40%;
-    background-color: rosybrown;
-    border: 1px dashed;
 }
 .Bigdownload{
     height: 70vh;
@@ -111,39 +137,24 @@ aside{
 /* #endregion main */
 
 
+
 /* #footer region */
-footer{
-    background-color: rgb(0, 53, 12);
-}
 .social{
     width: 32%;
 }
 .infoNservices{
-    width: 16%;
+    width: 17%;
 }
-.bg-Pk{
-    background-color: pink;
+.divider{
+    border-bottom: 1px solid grey;
 }
-.bg-Slv{
-    background-color: rgb(0, 173, 142);
-    border: 1px dashed white;
 
-}
+
 .conteinerf{
-    border:1px dashed;
     justify-content: space-between;
-    background-color: orange;
     width: 60%;
     height: 80%;
     min-height: 1rem;
-
-}
-.LogoB{
-    border: 1px dashed;
-    background-color:rosybrown ;
-}
-button{
-    border: 1px dashed black;
 }
 
 .moduleF{
